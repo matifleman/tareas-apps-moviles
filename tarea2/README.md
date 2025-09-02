@@ -1,50 +1,7 @@
-# Welcome to your Expo app 👋
+Tarea para la clase que viene (11 de Sep)
+Usando lo que vimos de expo-router (Tabs, Stack, _layout) y <TextInput> , hacer una app que tenga las siguientes características:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Un tab de navegación con tres opciones: <Contador>, <Tarjetas> y <Perfil>.
+En <Contador> debe haber un botón que incremente un contador y un texto que muestre el valor del contador, como ya vimos en clase.
+En <Tarjetas> debe estar la lista de tarjetas que hicimos en la tarea anterior.
+En <Perfil> debe aparecer su nombre y apellido y un boton que diga "Cambiar nombre". Al presionar el botón, debe aparecer un modal con un input para cambiar el nombre y un botón de "Guardar". Al presionar "Guardar", el modal debe cerrarse y el nombre en el perfil debe cambiar al nombre ingresado en el input.
